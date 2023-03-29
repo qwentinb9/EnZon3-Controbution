@@ -1,5 +1,9 @@
-# Auto I-Ready
 
-Currently WIP
+# EnZon3 Controbution Project
 
-Please suggest a better name lmao
+To view the original github page go to the forked repositorie.
+This project is currently in progress.
+
+If you would like please contribute to the original and this page! Thanks!
+
+![grid_landscape](https://user-images.githubusercontent.com/58016466/228446581-2e0b061a-f3ca-4a63-80cf-73dd5a50caf8.png)
