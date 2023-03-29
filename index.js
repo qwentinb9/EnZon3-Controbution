@@ -1,12 +1,18 @@
 const puppeteer = require('puppeteer');
 const { executablePath } =  require('puppeteer');
+const path = require('path');
 //remove this line later when testing is done 💀
 const cookies = require('./cookies.json');
 const fs = require('fs');
 
 async function test() {
+  const Nullify = path.join(process.cwd(), 'Nullify');
   const browser = await puppeteer.launch({
-    ignoreDefaultArgs: ['--disable-extensions'],
+    headless: 'new',
+    args: [
+      `--disable-extensions-except=${Nullify}`,
+      `--load-extension=${Nullify}`
+    ],
     executablePath: executablePath(),
   });
   const page = await browser.newPage();
@@ -23,12 +29,6 @@ async function test() {
   await reading[0].click({ waitUntil: 'domcontentloaded'})
 
   await page.waitForTimeout(4000)
-
-  console.log('Injecting Nullify')
-  let bookmarklet = fs.readFileSync('./bookmarklet.txt', 'utf8');
-  await page.evaluate(function() {
-    eval(bookmarklet);
-  }, { waitUntil: 'domcontentloaded'})
 
   console.log('taking screenshot...');
   await page.screenshot({
