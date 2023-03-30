@@ -40,7 +40,7 @@ async function reading(minutes, lessons) {
 
   // now we are into lesson
   let clickLesson2 = await page.$x("/html/body/div[1]/div[1]/section/div/div[1]/div/div/div/div[3]/div/div/div/div/div/div[2]/div/div[2]/div/div/button")
-  await clickLesson2[0].click({ waitUntil: 'domcontentloaded'})
+  await clickLesson2[0].click({ waitUntil: 'networkidle0'})
 
   await page.waitForTimeout(4000)
 
