@@ -4,10 +4,10 @@ Currently a **WORK IN PROGRESS!**
 
 Please suggest a better name lmao
 
+**Looking for developers**
+
 # How to use
 It doesn't really work right now by itself, and no, index.js is NOT a bookmarklet. It is a NodeJS app for the backend of this program. Once the full frontend and backend are done, I will repkace this message with a link to the frontend repo.
-
-**Looking for developers**
 
 # Contributing
 
