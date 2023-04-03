@@ -9,10 +9,10 @@ async function reading(minutes, lessons) {
   const Nullify = path.join(process.cwd(), 'Nullify');
   const browser = await puppeteer.launch({
     headless: 'new',
-    args: [
-      `--disable-extensions-except=${Nullify}`,
-      `--load-extension=${Nullify}`
-    ],
+    // args: [
+    //   `--disable-extensions-except=${Nullify}`,
+    //   `--load-extension=${Nullify}`
+    // ],
     executablePath: executablePath(),
   });
   const page = await browser.newPage();
@@ -38,7 +38,7 @@ async function reading(minutes, lessons) {
 
   await page.waitForTimeout(10000)
 
-  // now we are into lesson
+  // for the love of god how do you enter a lesson lmao
   let clickLesson2 = await page.$x("/html/body/div[1]/div[1]/section/div/div[1]/div/div/div/div[3]/div/div/div/div/div/div[2]/div/div[2]/div/div/button")
   await clickLesson2[0].click({ waitUntil: 'networkidle0'})
 

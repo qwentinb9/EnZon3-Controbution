@@ -4,6 +4,8 @@ Currently WIP
 
 Please suggest a better name lmao
 
+As of now only farming minutes would work if this gets finished.
+
 **Looking for developers**
 
 # Contributing
