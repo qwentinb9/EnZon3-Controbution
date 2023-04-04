@@ -1,6 +1,6 @@
 # Auto I-Ready
 
-Currently WIP by EnZon3 and Blazium
+Currently a **WORK IN PROGRESS!** by EnZon3 and Blazium
 
 Please suggest a better name lmao
 
