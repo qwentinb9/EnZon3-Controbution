@@ -11,7 +11,7 @@ async function reading(minutes, lessons) {
     headless: 'new',
     // args: [
     //   `--disable-extensions-except=${Nullify}`,
-    //   `--load-extension=${Nullify}`
+    //   `--load-extension=${Nullif}`
     // ],
     executablePath: executablePath(),
   });

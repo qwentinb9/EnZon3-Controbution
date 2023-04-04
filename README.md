@@ -1,12 +1,14 @@
 # Auto I-Ready
 
-Currently WIP
+Currently WIP by EnZon3 and Blazium
 
 Please suggest a better name lmao
 
 As of now only farming minutes would work if this gets finished.
 
 **Looking for developers**
+
+# Warning: This is for EDUCATIONAL PURPOSES ONLY! USE THIS AT YOUR OWN RISK! This is only a test of my coding skills and is only intended to be a fun project with no ill intent in mind. This is only meant to be used for the purpose of ETHINCAL HACKING! DO NOT USE THIS FOR MAL INTENT!
 
 # Contributing
 
